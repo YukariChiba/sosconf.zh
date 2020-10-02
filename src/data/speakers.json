@@ -1,0 +1,57 @@
+[
+    {
+        "name": "高效的Rust - Rust的开源生态以及时间场景",
+        "desc": [
+            "1.  介绍Rust特性",
+            "2.  介绍Rust开源生态",
+            "3.  Rust应用场景实践"
+        ],
+        "speaker": {
+            "name": "柴轶晟",
+            "org": "重庆大学",
+            "desc": [
+                "Backend Developer / FSF Member",
+                "Linux / Android / Java / Rust",
+                "OpenPGP:8D63 4277 16F4 A85A"
+            ]
+        },
+        "interview_url": ""
+    },
+    {
+        "name": "怎样设计一个没人用的编程语言",
+        "desc": [
+            "中文编程？No",
+            "炫酷语法？No",
+            "坚持三年，发布数十个版本，却没啥用户的编程语言，背后究竟有什么故事？听CovScript创始人为您亲自讲述"
+        ],
+        "speaker": {
+            "name": "李登淳",
+            "org": "智锐科创计算机协会",
+            "desc": [
+                "系统软件/开源社区/编程教育",
+                "四川大学计算机学院双特生",
+                "七年近百万行C++编程经验",
+                "CovScript编程语言创始人"
+            ]
+        },
+        "interview_url": ""
+    },
+    {
+        "name": "高效的Rust - Rust的开源生态以及时间场景",
+        "desc": [
+            "1.  介绍Rust特性",
+            "2.  介绍Rust开源生态",
+            "3.  Rust应用场景实践"
+        ],
+        "speaker": {
+            "name": "柴轶晟",
+            "org": "重庆大学",
+            "desc": [
+                "Backend Developer / FSF Member",
+                "Linux / Android / Java / Rust",
+                "OpenPGP:8D63 4277 16F4 A85A"
+            ]
+        },
+        "interview_url": ""
+    }
+]
