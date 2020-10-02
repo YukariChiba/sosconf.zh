@@ -38,51 +38,12 @@
 </template>
 
 <script>
+import nv from "@/data/nav.json";
+
 export default {
   data: () => ({
-    items: [
-      {
-        title: "参加",
-        icon: "check-all",
-        link: "reg"
-      },
-      {
-        title: "联系赞助",
-        icon: "contacts",
-        link: "coop"
-      },
-      {
-        title: "Talk 列表",
-        icon: "format-list-bulleted",
-        link: "talks"
-      },
-      {
-        title: "最新进展",
-        icon: "chart-timeline-variant",
-        link: "progress"
-      },
-      {
-        title: "关于我们",
-        icon: "information",
-        link: "about"
-      }
-    ],
-    small_icons: [
-      {
-        title: "加入我们的 Telegram 群组",
-        icon: "telegram",
-        link: "https://t.me/soscon"
-      },
-      {
-        title: "关注我们的微博",
-        icon: "sina-weibo"
-      },
-      {
-        title: "加入我们的 QQ 群",
-        icon: "qqchat",
-        link: "https://u.nu/y4liw"
-      }
-    ]
+    items: nv.menu,
+    small_icons: nv.social
   })
 };
 </script>

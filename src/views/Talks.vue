@@ -1,6 +1,6 @@
 <template>
   <section class="talks d-flex align-center">
-    <v-container class="mt-12">
+    <v-container class="mt-4">
       <v-row>
         <v-col v-for="s in speakers" :key="s.name" cols="12">
           <v-card>
@@ -12,7 +12,7 @@
                 </v-card-text>
               </v-col>
               <v-divider class="hidden-sm-and-down" vertical></v-divider>
-              <v-col class="py-0 pl-0">
+              <v-col class="py-0 pl-0 d-flex flex-column">
                 <v-card-title> 讲者：{{ s.speaker.name }} </v-card-title>
                 <v-card-subtitle>
                   {{ s.speaker.org }}
@@ -22,6 +22,7 @@
                     {{ p }}
                   </p>
                 </v-card-text>
+                <v-spacer />
                 <v-divider />
                 <v-card-actions>
                   <v-btn text color="primary">查看专访</v-btn>
