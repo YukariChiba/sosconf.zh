@@ -5,14 +5,24 @@
         <v-col v-for="s in speakers" :key="s.name" cols="12">
           <v-card>
             <v-row>
-              <v-col class="py-0" cols="12" md="8">
-                <v-card-title>{{ s.name }}</v-card-title>
+              <v-col class="py-0 d-flex flex-column" cols="12" md="8">
+                <v-card-title class="text-h5">{{ s.name }}</v-card-title>
+                <v-card-subtitle
+                  ><v-icon small class="mr-1">mdi-clock-outline</v-icon
+                  >时间：待定</v-card-subtitle
+                >
                 <v-card-text>
                   <p class="my-1" v-for="p in s.desc" :key="p">{{ p }}</p>
                 </v-card-text>
+                <v-spacer />
+                <v-card-actions>
+                  <v-chip>测试标签</v-chip>
+                </v-card-actions>
               </v-col>
+
               <v-divider class="hidden-sm-and-down" vertical></v-divider>
-              <v-col class="py-0 pl-0 d-flex flex-column">
+              <v-col class="py-0 pl-md-0 d-flex flex-column">
+                <v-divider class="hidden-md-and-up" />
                 <v-card-title> 讲者：{{ s.speaker.name }} </v-card-title>
                 <v-card-subtitle>
                   {{ s.speaker.org }}
@@ -25,7 +35,9 @@
                 <v-spacer />
                 <v-divider />
                 <v-card-actions>
-                  <v-btn text color="primary">查看专访</v-btn>
+                  <v-btn text color="primary" :disabled="s.interview_url == ''"
+                    >查看专访</v-btn
+                  >
                 </v-card-actions>
               </v-col>
             </v-row>

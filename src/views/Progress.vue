@@ -12,8 +12,14 @@
             </v-card-text>
             <v-divider />
             <v-card-actions>
+              <v-chip>
+                <v-icon class="mr-1">mdi-clock-outline</v-icon>
+                {{ p.time }}
+              </v-chip>
               <v-spacer />
-              <v-btn text :to="'/progress/' + p.url">了解更多</v-btn>
+              <v-btn color="primary" text :to="'/progress/' + p.url"
+                >了解更多</v-btn
+              >
             </v-card-actions>
           </v-card>
         </v-timeline-item>

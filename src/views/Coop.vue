@@ -1,6 +1,6 @@
 <template>
   <section class="coop d-flex align-center">
-    <v-container class="mt-12">
+    <v-container class="mt-6 mt-md-12">
       <v-card>
         <v-container>
           <v-card-text>

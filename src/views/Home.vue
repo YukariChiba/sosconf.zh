@@ -3,7 +3,7 @@
     <section class="d-flex align-center home-head">
       <PageHead />
     </section>
-    <section>
+    <section class="mx-2 mx-md-6 mx-lg-12">
       <About />
     </section>
   </div>
