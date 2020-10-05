@@ -1,3 +1,8 @@
 module.exports = {
-  transpileDependencies: ["vuetify"]
+  transpileDependencies: ["vuetify"],
+
+  pwa: {
+    name: 'SOSCONF.zh 2020',
+    themeColor: '#589bad'
+  }
 };

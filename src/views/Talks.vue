@@ -15,8 +15,10 @@
                   <p class="my-1" v-for="p in s.desc" :key="p">{{ p }}</p>
                 </v-card-text>
                 <v-spacer />
-                <v-card-actions>
-                  <v-chip>测试标签</v-chip>
+                <v-card-actions v-if="'tags' in s">
+                  <v-chip v-for="t in s.tags" :key="t.name" :color="t.color">{{
+                    t.name
+                  }}</v-chip>
                 </v-card-actions>
               </v-col>
 
