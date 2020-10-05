@@ -37,7 +37,7 @@
                 <v-spacer />
                 <v-divider />
                 <v-card-actions>
-                  <v-btn text color="primary" :disabled="s.interview_url == ''"
+                  <v-btn text color="primary" :herf="s.interview_url" :disabled="s.interview_url == ''"
                     >查看专访</v-btn
                   >
                 </v-card-actions>
