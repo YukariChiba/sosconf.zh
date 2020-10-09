@@ -39,7 +39,7 @@
             "介绍开源软件与自由软件的历史渊源"
         ],
         "speaker": {
-            "name": "JingYu Pu",
+            "name": "Kiritake Kumi",
             "org": "",
             "desc": [
                 "目前大一在读...有一定计算机基础,对开源方面有一定兴趣."
@@ -48,22 +48,19 @@
         "interview_url": ""
     },
     {
-        "name": "我与开源的故事",
+        "name": "开源之我⻅ & SimpleXX 社区介绍",
         "desc": [
-            "主要分为四个部分",
-            "1. 我的经历（各种开源项目的参与经历，分为大型和小型）",
-            "2. SimpleKernel（作为项目作者的感悟，心态历程）",
-            "3. asoc（安利）",
-            "4.从开源项目的参与者/作者两个角度谈我的故事，最后说一下我对开源现状的理解，总结，over"
+            "主要分为两个部分。",
+            "第一部分为介绍自己的开源经历，第二部分则介绍 Simple-XX社区。"
         ],
         "speaker": {
             "name": "牛志宏",
             "org": "西安石油大学",
             "desc": [
-                "Linkedin: https://www.linkedin.com/in/zone-niuzh",
-                "Github: https://github.com/MRNIU",
-                "参与项目：Alibaba Summer of Code 2019：AliOS Things，homebrew，以及几个翻译项目",
-                "个人项目：SimpleKernel 等"
+                "男，1999 生，⻄安石油大学大三。",
+                "ASoC2019 Mentee，GSoC2020 Meetee，开源软件供应链点亮计划 Mentor。",
+                "SimpleXX 社区创始人。目前在 ThoughtWorks 参与内核开发工作。",
+                "GitHub: MRNIU。"
             ]
         },
         "interview_url": ""
