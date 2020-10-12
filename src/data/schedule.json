@@ -1,0 +1,91 @@
+{
+    "morning": [
+        {
+            "time": "9:10-9:30",
+            "title": "开幕演讲",
+            "type": "特殊演讲",
+            "color": "orange"
+        },
+        {
+            "time": "9:30-9:40",
+            "title": "COSCon‘20 成都介绍 ",
+            "speaker": "水歌",
+            "type": "介绍",
+            "color": "info"
+        },
+        {
+            "time": "9:40-10:10",
+            "title": "怎样设计一个没人用的编程语言",
+            "speaker": "李登淳",
+            "type": "主题演讲"
+        },
+        {
+            "time": "10:10-10:20",
+            "title": "中场休息,抽点小礼品",
+            "type": "活动",
+            "color": "orange"
+        },
+        {
+            "time": "10:20-10:50",
+            "title": "WebP Server Go",
+            "speaker": "Nova Kwok",
+            "type": "主题演讲"
+        },
+        {
+            "time": "10:50-11:20",
+            "title": "编程，让生活更美好",
+            "speaker": "闫放放",
+            "type": "主题演讲"
+        },
+        {
+            "time": "11:20-11:50",
+            "title": "开源软件与自由软件",
+            "speaker": "Kiritake Kumi",
+            "type": "主题演讲"
+        }
+    ],
+    "afternoon": [
+        {
+            "time": "14:00-15:30",
+            "title": "像个抖 M 一样写代码",
+            "speaker": "ICE1000",
+            "type": "主题演讲"
+        },
+        {
+            "time": "15:30-15:40",
+            "title": "抽点小礼品",
+            "type": "活动",
+            "color": "orange"
+        },
+        {
+            "time": "15:40-16:20",
+            "title": "开源之我⻅ & SimpleXX 社区介绍",
+            "speaker": "牛志宏",
+            "type": "主题演讲"
+        },
+        {
+            "time": "16:20-16:40",
+            "title": "爬虫，当斩还是当赏？",
+            "speaker": "李洋",
+            "type": "主题演讲"
+        },
+        {
+            "time": "16:40-17:10",
+            "title": "一款辅助外语学习的词典",
+            "speaker": "赵丰",
+            "type": "主题演讲"
+        },
+        {
+            "time": "17:10-18:00",
+            "title": "如何做一个好项目",
+            "speaker": "杨瀚凌",
+            "type": "主题演讲"
+        },
+        {
+            "time": "18:00-18:40",
+            "title": "红岩网校的后台架构演进与自研 RPC 框架",
+            "speaker": "Kieran",
+            "type": "主题演讲"
+        }
+    ]
+}

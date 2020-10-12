@@ -1,11 +1,17 @@
 <template>
   <section class="progress-post d-flex align-center">
     <v-container>
-      <v-card>
-        <v-card-text>
-          <VueMarkdown :source="mdtext"></VueMarkdown>
-        </v-card-text>
-      </v-card>
+      <v-skeleton-loader
+        :loading="loading"
+        type="article@4"
+        :elevation="loading ? 2 : 0"
+      >
+        <v-card>
+          <v-card-text>
+            <VueMarkdown :source="mdtext"></VueMarkdown>
+          </v-card-text>
+        </v-card>
+      </v-skeleton-loader>
     </v-container>
   </section>
 </template>
@@ -18,7 +24,8 @@ export default {
     VueMarkdown
   },
   data: () => ({
-    mdtext: ""
+    mdtext: "",
+    loading: true
   }),
   methods: {
     refreshHTML() {
@@ -27,7 +34,8 @@ export default {
         .then(response => (this.mdtext = response.data))
         .catch(() => {
           this.mdtext = "暂无内容";
-        });
+        })
+        .finally(() => (this.loading = false));
     }
   },
   watch: {

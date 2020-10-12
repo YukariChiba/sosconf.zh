@@ -8,8 +8,9 @@
               <v-col class="py-0 d-flex flex-column" cols="12" md="8">
                 <v-card-title class="text-h5">{{ s.name }}</v-card-title>
                 <v-card-subtitle
-                  ><v-icon small class="mr-1">mdi-clock-outline</v-icon
-                  >时间：待定</v-card-subtitle
+                  ><v-icon small class="mr-1">mdi-clock-outline</v-icon>时间：{{
+                    s.time
+                  }}</v-card-subtitle
                 >
                 <v-card-text>
                   <p class="my-1" v-for="p in s.desc" :key="p">{{ p }}</p>
@@ -37,7 +38,11 @@
                 <v-spacer />
                 <v-divider />
                 <v-card-actions>
-                  <v-btn text color="primary" :herf="s.interview_url" :disabled="s.interview_url == ''"
+                  <v-btn
+                    text
+                    color="primary"
+                    :herf="s.interview_url"
+                    :disabled="s.interview_url == ''"
                     >查看专访</v-btn
                   >
                 </v-card-actions>

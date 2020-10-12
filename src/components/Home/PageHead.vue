@@ -37,6 +37,16 @@
               <v-icon left>mdi-play</v-icon>
               立即报名
             </v-btn>
+            <v-btn
+              rounded
+              class="ma-2"
+              elevation="6"
+              x-large
+              href="https://live.bilibili.com/22566724"
+            >
+              <v-icon left>mdi-television</v-icon>
+              直播链接
+            </v-btn>
           </div>
         </v-responsive>
       </v-col>
